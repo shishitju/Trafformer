@@ -1,27 +1,20 @@
-# BiTe-GCN
+# Trafformer
 This repository contains the demo code of the paper:
->[BiTe-GCN: A New GCN Architecture via BidirectionalConvolution of Topology and Features on Text-Rich Networks](https://arxiv.org/pdf/2010.12157.pdf)
-
-which has been accepted by *WSDM2021*.
+>[Trafformer: Unify Time and Space in Traffic Prediction](https://doi.org/10.1609/aaai.v37i7.25980)
+which has been accepted by *AAAI0223*.
 ## Requirements:
 ```text
-* PyTorch
-* DGL
-* NumPy
-* tqdm
-* NetworkX
-* SciPy
+* matplotlib
+* numpy
+* scipy
+* pandas
+* torch
+* argparse
 ```
 ## Example
 
 ```
-bash run_demo.sh
+bash run_on_server.sh
 ```
 ## Citing
-    @inproceedings{bite-gcn,
-     author = {Di Jin, Xiangchen Song, Zhizhi Yu, Ziyang Liu, Heling Zhang,Zhaomeng Cheng, and Jiawei Han},
-     title = {BiTe-GCN: A New GCN Architecture via Bidirectional Convolution of Topology and Features on Text-Rich Networks},
-     booktitle = {Proceedings of the 14th ACM International Conference on Web Search and Data Mining},
-     year = {2021},
-     pages = {157--165},
-    }
+Jin, D., Shi, J., Wang, R., Li, Y., Huang, Y., & Yang, Y.-B. (2023). Trafformer: Unify Time and Space in Traffic Prediction. Proceedings of the AAAI Conference on Artificial Intelligence, 37(7), 8114-8122.
